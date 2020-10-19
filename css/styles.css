@@ -12,6 +12,18 @@ p {
   color: green;
 }
 
-//Set div-element border to dotted and 2 pixels wide, set element width and height to 100 pixels. Use class selector.
-//Replace ordered list numbers with letters.
-//Replace unordered list dots with squares.
+.div {
+  border-style: dotted;
+  margin: 2px;
+  border-width: 100px;
+  border-height: 100px;
+}
+
+ol {
+  list-style-type: lower alpha;
+}
+
+ul {
+  list-style-type: square;
+}
+
