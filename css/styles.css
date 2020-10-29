@@ -1,15 +1,25 @@
 body {
-  background-color: black;
-  color: white;
+  background-color: rgb(250,242,40);
+  color: black;
 }
 
 h1 {
   font-size: 20px;
+  border-style: dotted;
+  border-radius: 15px;
 }
+
+h2 {
+  font-size: 20px;
+  border-style: dotted;
+  border-radius: 15px;
+  margin: 100px;
+  padding: 200px;
 
 p {
   font-size: 12px;
-  color: green;
+  background-color: rgb(25,255,71);
+  color: black;
 }
 
 .div {
