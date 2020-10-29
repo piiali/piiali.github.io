@@ -1,6 +1,6 @@
 body {
-  background-color: rgb(250,242,40);
-  color: black;
+  background-color: rgb(250, 242, 40);
+  color:Black;
 }
 
 h1 {
@@ -10,16 +10,17 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 15px;
   border-style: dotted;
-  border-radius: 15px;
+  border-radius: 20px;
   margin: 100px;
   padding: 200px;
+}
 
 p {
   font-size: 12px;
-  background-color: rgb(25,255,71);
-  color: black;
+  background-color: rgb(25, 255, 71);
+  color:Black;
 }
 
 .div {
