@@ -3,22 +3,24 @@ body {
 }
 
 h1 {
-  font-size: 20px;
-  border-style: dotted;
+  font-size: 50px;
+  color: Grey;
+  border-style: solid;
   border-radius: 15px;
+  border-color: Grey;
 }
 
 h2 {
-  font-size: 15px;
+  font-size: 20px;
   border-style: dotted;
   border-radius: 20px;
-  margin: 100px;
-  padding: 200px;
+  margin: 10px;
+  padding: 20px;
 }
 
 p {
-  font-size: 12px;
-  background-color: rgb(25, 255, 71);
+  font-size: 20px;
+  background-color: rgb(25, 255, 71, 0.5);
   color:Black;
 }
 
