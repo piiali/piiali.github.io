@@ -5,21 +5,55 @@
     <title>Third</title>
       <link rel="stylesheet" type="text/css" href="/stylesheet.css">
 
+<style>
+
+body {
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+}  
+
+#header {
+background-color:Green;
+text-align:center;
+padding:20px;
+}
+
+#nav {
+background-color:Grey;
+padding:5px;
+}
+
+#article {
+background-color:Red;
+padding:5px;
+
+}
+
+#footer {
+background-color: Yellow;
+text-align:center;
+padding:10px;
+}
+
+
+</style>
 </head>
 
 <body>
-  <header>
+  <header id="header">
     <h1>Banaani</h1>
   </header>
   
-  <nav>
+  <section>
+  <nav id="nav">
     <ul>
       <li><a href="index.html">Linkki index-sivulle</a></li>
       <li><a href="index.html">Linkki second-sivulle</a></li>
     </ul>
   </nav>
   
-  <section>
+<article id="article">
     <p>Banaanista voi olla montaa eri mieltä. Toiset inhoavat banaaneja, mutta toiset eivät voi olla ilman niitä. Toisille banaani on herkku, toinen taas syö banaaneja terveysvaikutusten takia.</p>
     <p>Banaani sisältää paljon B6-vitamiinia. Tästä johtuen banaaneilla on useita terveysvaikutuksia. </p>
       <ul>
@@ -29,9 +63,10 @@
         <li>hermosto vahvistuu</li>
         <li>uttavan valkosolujen tuotantoa.</li>
     </ul>
+    </article>
   </section>
   
-  <footer>
+  <footer id="footer">
     <p>Banaanit is the best</p>
   </footer>
 
