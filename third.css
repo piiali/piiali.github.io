@@ -1,43 +1,77 @@
-body {
-  background-color: rgb(250, 242, 40, 0.6);
+* {
+  box-sizing: border-box;
 }
+
+
 
 h1 {
   font-size: 50px;
-  color: Grey;
-  border-style: solid;
-  border-radius: 15px;
-  border-color: Grey;
+  color: White;
+	
 }
 
 h2 {
-  font-size: 20px;
-  border-style: dotted;
-  border-radius: 20px;
+  font-size: 30px;
   margin: 10px;
   padding: 20px;
 }
 
+h3 {
+  font-size: 30px;
+  margin: 10px;
+  padding: 10px;
+}
+
 p {
   font-size: 20px;
-  background-color: rgb(25, 255, 71, 0.5);
   color:Black;
+  margin:10px;
+  padding:50px 20 px;
 }
 
-.div {
-  border-style: dotted;
-  margin: 2px;
-  border: 100px;
-}
-
-ol {
-  list-style-type: lower-alpha;
-}
-
-ul {
-  list-style-type: square;
-}
-
-#linkit {
+nav {
   float: left;
+  width: 30%;
+  height: 742px;
+  background: #ccc;
+  padding: 20px;
+
+}
+
+nav ul {
+  list-style-type: round;
+  padding: 0;
+}
+
+header {
+  background-color: #300;
+  padding: 40px;
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  }
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #255;
+  margin;10px;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a:hover {
+  color: red;
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
 }
