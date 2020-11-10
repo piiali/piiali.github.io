@@ -37,3 +37,7 @@ ol {
 ul {
   list-style-type: square;
 }
+
+#linkit {
+  float: left;
+}
