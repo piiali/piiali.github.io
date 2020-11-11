@@ -72,3 +72,17 @@ footer {
   text-align: center;
   color: white;
 }
+
+#horizontallist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.centerlist {
+  float: left;
+  padding:10px;
+  text-align: center;
+}
