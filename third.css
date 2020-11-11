@@ -2,8 +2,6 @@
   box-sizing: border-box;
 }
 
-
-
 h1 {
   font-size: 50px;
   color: White;
@@ -32,7 +30,7 @@ p {
 nav {
   float: left;
   width: 30%;
-  height: 742px;
+  height: 1042px;
   background: #ccc;
   padding: 20px;
 
@@ -56,7 +54,6 @@ article {
   padding: 20px;
   width: 70%;
   background-color: #255;
-  margin:10px;
 }
 
 section:after {
@@ -74,18 +71,4 @@ footer {
   padding: 10px;
   text-align: center;
   color: white;
-}
-
-#horizontallist {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #000;
-}
-
-.centerlist {
-  float: left;
-  padding:10px;
-  text-align: center;
 }
