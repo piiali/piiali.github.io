@@ -193,6 +193,10 @@ footer {
   width: auto;
 }
 
+.carousel-img {
+  width: 100%;  
+}
+
 .carousel-caption {
   position: absolute;
   left: 0;
