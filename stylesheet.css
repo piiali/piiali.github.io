@@ -190,7 +190,7 @@ footer {
 }
 
 .carousel-inner {
-  width: 100%;
+  width: auto;
 }
 
 .carousel-caption {
