@@ -137,6 +137,10 @@ footer {
 .card img {
   border-radius: 15px;
   z-index:1;
+  width: 75%; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card .card-body{
